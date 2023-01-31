@@ -14,9 +14,10 @@
     left: 174px;
     width: 423px;
     height: 400px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .header__text_style{
+    text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -180,9 +181,9 @@
     position: absolute;
     height: 1183.77px;
     width: 1280px;
-    left: 320px;
+    left: 310px;
     top: 610px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .guide__all{
@@ -191,7 +192,7 @@
     top: 60.19px;
     width: 1064px;
     height: 208.5px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .guide__all__text{
@@ -207,5 +208,277 @@
     line-height: 42px;
     text-align: center;
     color: #000000;
+}
 
+.guide__all__chapter__text{
+    position: absolute;
+    width: 632px;
+    height: 69px;
+    left: calc(50% - 632px/2);
+    top: 68.81px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.all__text2{
+    position: absolute;
+    top: 116.31px;
+    left: 140px;
+    width: 371px;
+    height: 23px;
+}
+
+.best{
+    position: absolute;
+    width: 1064px;
+    height: 729.27px;
+    left: 108px;
+    top: 335px;
+    /* border: 1px solid green; */
+}
+
+.best__text{
+    position: absolute;
+    width: 256px;
+    height: 42px;
+    left: calc(50% - 256px/2);
+    top: 0.31px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.best__guide{
+    position: absolute;
+    top: 94px;
+    width: 314.66px;
+    height: 584.27px;
+    /* border: 1px solid blue; */
+}
+.best__guide__img{
+    position: absolute;
+    width: 309px;
+    height: 422px;
+    left: 3px;
+}
+
+.best__guide__text{
+    position: absolute;
+    width: 156px;
+    height: 60px;
+    left: calc(50% - 156px/2 - 0.33px);
+    top: 449px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.best__guide__price{
+    position: absolute;
+    width: 73px;
+    height: 20px;
+    left: calc(50% - 73px/2 + 0.17px);
+    top: 526px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.best__guide__buy{
+    position: absolute;
+    width: 92px;
+    height: 20px;
+    left: calc(50% - 92px/2 - 0.5px);
+    top: 556px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    text-decoration-line: underline;
+}
+
+.best__guide2{
+    position: absolute;
+    top: 94px;
+    left: 375px;
+    width: 314.66px;
+    height: 584.27px;
+    /* border: 1px solid blue; */
+}
+
+.best__guide3{
+    position: absolute;
+    top: 94px;
+    left: 749px;
+    width: 314.66px;
+    height: 584.27px;
+    /* border: 1px solid blue; */
+}
+
+.chapter{
+    position: absolute;
+    width: 1440px;
+    height: 1956.38px;
+    top: 1796px;
+    left: 230px;
+    border: 1px solid blue;
+}
+
+.people_and_society{
+    position: absolute;
+    width: 1440px;
+    height: 652px;
+    /* border: 1px solid black; */
+    background: rgba(204, 204, 204, 0.3);
+}
+
+.chapter__img{
+    position: absolute;
+    top: 76px;
+    left: 188px;
+}
+
+.chapter__all{
+    position: absolute;
+    top: 83.08px;
+    left: 623px;
+    width: 532px;
+    height: 510.88px;
+    /* border: 1px solid #000000; */
+}
+
+.chapter__all__chapter{
+    position: absolute;
+    height: 42px;
+    left: 0%;
+    right: 40.98%;
+    top: 62.92px;
+}
+.all__chapter__style{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+
+}
+
+.all__text__style{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.all__link__style{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.chapter__all__text{
+    position: absolute;
+    height: 252px;
+    left: 0%;
+    right: 6.39%;
+    top: 135.92px;
+}
+
+.chapter__all__link{
+    position: absolute;
+    height: 20px;
+    left: 0%;
+    right: 68.23%;
+    top: 427.92px;
+}
+
+.culture_and_heritage{
+    position: absolute;
+    top: 652px;
+    width: 1440px;
+    height: 652px;
+    /* border: 1px solid black; */
+    background: rgba(204, 204, 204, 0.6);
+}
+
+.chapter__img2{
+    position: absolute;
+    top: 76px;
+    left: 867px;
+}
+
+.chapter__all2{
+    position: absolute;
+    top: 104.7px;
+    left: 285px;
+    width: 532px;
+    height: 467.88px;
+    /* border: 1px solid #000000; */
+}
+
+.chapter__all__chapter2{
+    position: absolute;
+    width: 347px;
+    height: 42px;
+    right: 0px;
+    top: 63.3px;
+    text-align: right;
+    color: #000000;
+}
+
+.chapter__all__text2{
+    position: absolute;
+    width: 513px;
+    height: 252px;
+    right: 0px;
+    top: 136.3px;
+    text-align: right;
+    color: #000000;
+}
+
+.chapter__all__link2{
+    position: absolute;
+    width: 169px;
+    height: 20px;
+    right: 0px;
+    top: 419.3px;
+    text-align: right;
+}
+
+.power_and_politics{
+    position: absolute;
+    top: 1304.05px;
+    width: 1440px;
+    height: 652px;
+    /* border: 1px solid black; */
+    background: rgba(204, 204, 204, 0.3);
 }
